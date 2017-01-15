@@ -1,0 +1,20 @@
+<div class="container">
+	<div ng-if="flag" class="center">
+		<h1 class="h1">Your Password</h1>
+		<input ng-model="password" type="text" class="form-control size" aria-label="Text input with checkbox" placeholder="Enter your pass 'pass1'">
+		<button ng-click="check(password)" type="button" class="btn btn-default passB ">Move On</button>
+	</div>
+
+
+	<div ng-if="error" class="alert alert-danger error">
+	  <p><b>Check Your Password!</b> It isn't correct.</p>
+	</div>
+
+	<div ng-if="task" class="center">
+		<div class="alert alert-info task">
+		  <p><strong>YOUR TASK : </strong> <br>{{!!request?request:''}}</p>
+		</div>
+
+		<button ng-click="back()" type="button" class="btn btn-info taskB">Next Pass</button>
+	</div>
+</div>

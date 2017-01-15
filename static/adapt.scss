@@ -1,0 +1,32 @@
+.container{
+  margin-top: 30px;
+}
+input:hover{
+  border: 1px solid black;
+}
+h1{
+  text-align: center;
+}
+.size{
+  text-align: center;
+}
+button.taskB{
+  margin-top: -10px;
+}
+.error{
+  //width: 100%;
+  //position: absolute;
+  //top:20%;
+  text-align: center;
+}
+.task{
+  text-align: center;
+  }
+@media (max-width: 500px){
+input.size{
+  height: 90px;
+}
+  button.passB, .taskB{
+    height: 70px;
+  }
+}

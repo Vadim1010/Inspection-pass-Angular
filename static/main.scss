@@ -1,0 +1,87 @@
+@import '../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap';
+@import '../node_modules/animate-scss/animate.scss';
+// @import './fonts/danielbd.ttf';
+@import './adapt.scss';
+
+
+@font-face{
+	font-family: myriad;
+	src: url('./fonts/Myriad.ttf');
+}
+
+
+*{
+	font-family: myriad;
+	
+}
+
+
+//PASS
+
+.center{
+	// width: 90%;
+	// height: 40%;
+	// position: absolute;
+	// top: 30%;
+	// left: 5%;
+	//position: absolute;
+	//top: 25%;
+	//left:25%;
+
+	// border: 1px solid;
+}
+
+.h1{
+	// position: relative;
+	// top: 10%;
+	// left: 15%;
+	color: tomato;
+	// font-size: 70px;
+	animation: 1s bounceInDown;
+}
+
+.size{ 
+	// position: relative;
+	// top: 10%;
+	// left: 0%;
+	// height: 70px;
+	// font-size: 55px;
+	// line-height: 60px;
+	color: red;
+	animation: 1s rotateInUpLeft;
+}
+
+.passB{
+	margin: 10px;
+	// height: 50px;
+	// font-size: 45px;
+	// line-height: 50px;
+	//position: absolute;
+	// bottom: 40%;
+	float: right;
+	animation: 1s slideOutDown;
+}
+
+
+//TASK
+
+.task{
+	// height: 50%;
+	// font-size: 50px;
+	// line-height: 55px;
+	animation: 1s fadeInLeft;
+}
+
+.taskB{
+	// height: 50px;
+	// font-size: 45px;
+	// line-height: 50px;
+	// position: absolute;
+	animation: 1s fadeInRigth;
+}
+
+//ERROR
+.error{
+	// font-size: 45px;
+	// line-height: 50px;
+}
